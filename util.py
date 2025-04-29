@@ -36,7 +36,7 @@ def load_saved_artifacts():
 
     global __model
 
-    with open("./artifacts/Bengaluru_house_price.pkl", "rb") as f:
+    with open("./Bengaluru_house_price.pkl", "rb") as f:
         __model = pickle.load(f)
     print("loading saved artifacts... done")
 
